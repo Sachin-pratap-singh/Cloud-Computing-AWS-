@@ -10,7 +10,7 @@ from image_helpers import get_image
 
 client = boto3.client('rekognition')
 # --------------------------------------------------------------------
-# DO NOT CHANGE THESE FUNCTIONS
+
 
 
 def format_text(text, columns):
