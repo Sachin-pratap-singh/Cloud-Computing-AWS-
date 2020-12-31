@@ -1,0 +1,12 @@
+---
+Description: Setup an Amazon Linux Web server (use in Ohio)
+
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0817d428a6fb68645 
+      InstanceType: t2.micro
+      Tags:
+      - Key: Name
+        Value: Amazon Linux Web Server
